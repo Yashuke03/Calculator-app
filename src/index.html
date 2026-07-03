@@ -16,8 +16,16 @@
 
       <!-- Display -->
       <div class="calculator__display">
+        <!-- History log -->
+        <ul id="history" class="calculator__history" aria-label="Calculation history"></ul>
+
         <p id="expression" class="calculator__expression"></p>
-        <p id="result" class="calculator__result">0</p>
+
+        <!-- Result (click to copy) -->
+        <div class="calculator__result-row">
+          <p id="result" class="calculator__result" title="Click to copy" aria-live="polite" role="status">0</p>
+          <span id="copy-toast" class="copy-toast" aria-hidden="true">Copied!</span>
+        </div>
       </div>
 
       <!-- Buttons -->
@@ -25,7 +33,7 @@
 
         <!-- Row 1 -->
         <button class="key key--action" data-action="clear">AC</button>
-        <button class="key key--action" data-action="sign">+/−</button>
+        <button class="key key--action" data-action="backspace" aria-label="Backspace">⌫</button>
         <button class="key key--action" data-action="percent">%</button>
         <button class="key key--operator" data-operator="÷">÷</button>
 
