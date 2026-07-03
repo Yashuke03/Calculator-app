@@ -1,0 +1,25 @@
+{
+  "name": "calculator-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yashuke03/Calculator-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Yashuke03/Calculator-app/issues"
+  },
+  "homepage": "https://github.com/Yashuke03/Calculator-app#readme",
+  "devDependencies": {
+    "jest": "^30.4.2"
+  }
+}
